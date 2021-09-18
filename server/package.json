@@ -1,0 +1,25 @@
+{
+  "name": "team_42_hackfest",
+  "version": "1.0.0",
+  "description": "Pair meeting for enhancing collaboration.",
+  "main": "App.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimijc/team42FE.git"
+  },
+  "keywords": [
+    "Team",
+    "Up",
+    "Pair",
+    "Meeting"
+  ],
+  "author": "Ibrahim, Qasim and Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimijc/team42FE/issues"
+  },
+  "homepage": "https://github.com/ibrahimijc/team42FE#readme"
+}
