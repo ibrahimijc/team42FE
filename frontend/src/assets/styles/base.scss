@@ -1,0 +1,102 @@
+$pe-7s-font-path: "~pe7-icon/dist/fonts" !default;
+@import 'base/new_variables';
+@import 'base/variables';
+ 
+  
+@import 'base/sidebar';
+@import 'base/navbar';
+@import 'base/currency';
+@import 'base/storeDetail';
+@import 'base/banking';
+@import'base/inventory';
+@import 'base/storeoffer';
+@import 'base/issue';
+@import 'base/order';
+@import 'base/accrodin';
+@import 'base/imageupload';
+
+
+@import 'base/customerpickup';
+
+ 
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+html, body {
+  font-size: 14px;
+}
+
+  
+.loader-large{
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top:10px solid #3498db; /* Blue */
+  border-radius: 50%;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+}
+input:focus {
+  height: 35px !important;
+ 
+  
+  color: #665c70;
+  background-color: #fff;
+  border-color: #a679d2;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(102,51,153,.25);
+  box-shadow: 0 0 0 0.2rem rgba(102,51,153,.25);
+}
+button:focus {
+  background-color: none;
+  border-color: black;
+  outline: none !important;
+  border-radius: 2px solid;
+}
+button:hover{
+  opacity: 0.8;
+}
+.loader-small {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top:4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.suggestion-active{
+  background-color: #3498db;
+}
+ 
+
+.export-csv {
+  color: #fff !important;  
+}
