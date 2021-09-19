@@ -1,0 +1,302 @@
+html,
+body {
+    
+    background: #F7F7F7;
+    overflow: hidden;
+}
+
+body,
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+}
+.container {
+    .container-heading {
+        background: white;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        > p {
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: auto;
+            margin-bottom: auto;
+            letter-spacing: 0px;
+            color: #F29700;
+        }
+    }
+    
+
+}  
+    
+.cardtop{
+    height: 160px;
+
+}
+   
+.paddinng
+{
+    padding: 0;
+}
+.cardone{
+
+    background:     rgb(242, 151, 0);
+color: white;
+}
+.cardtwo{
+
+    background:     rgb(247, 186, 90);
+color: white;
+}
+.cardgour{
+
+    background:     rgb(240, 62, 62);
+color: white;
+}
+.cardonetitle{
+        /* padding: 19px; */
+        /* margin-right: -8px; */
+        margin-left: 70px;
+        margin-top: 40px;
+}
+.cardtwotitle{
+    /* padding: 19px; */
+    /* margin-right: -8px; */
+    margin-left: 70px;
+    margin-top: 9px;
+}
+ .page-link {
+ 
+     color: white !important;
+     background-color: black !important;
+ }
+ .page-link:hover {
+ 
+     color: white !important;
+     background-color: black !important;
+ }
+.page-item.active .page-link {
+    z-index: 3;
+    color: black !important;
+    opacity: 0.8;
+    background-color: white !important;
+    border-color: #007bff;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+    opacity: 0.6;
+}
+
+  .circle2 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 24px;
+    margin-top: 70px;
+  }
+  .saleleft{
+      margin-left: 270px;
+  }
+  .square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+  .card1{
+       height: 160px;;
+  }
+  .card2{
+    height: 320px;;
+}.card3{
+    height: 230px;;
+}
+.card4{
+    background:     rgb(242, 151, 0);
+
+}
+.starrate{
+    /* padding: 19px; */
+    /* margin-right: -8px; */
+    margin-left: 150px;
+    margin-top: -135px;
+}
+.checked {
+    color:#F29700;
+  }
+  .Icon-BG {
+    width: 60px;
+    height: 60px;
+    opacity: 0.22;
+    background-color: #f29700;
+  }
+
+
+  /* 
+  make each pie piece a rectangle twice as high as it is wide.
+  move the transform origin to the middle of the left side.
+  Also ensure that overflow is set to hidden.
+*/
+
+ 
+.pie {
+    position:absolute;
+    width:100px;
+    height:200px;
+    margin-left: -20px;
+    
+    margin-top: -40px;
+    overflow:hidden;
+ left:150px;
+    -moz-transform-origin:left center;
+    -ms-transform-origin:left center;
+    -o-transform-origin:left center;
+    -webkit-transform-origin:left center;
+    transform-origin:left center;
+}
+/*
+unless the piece represents more than 50% of the whole chart.
+then make it a square, and ensure the transform origin is
+back in the center.
+
+NOTE: since this is only ever a single piece, you could
+move this to a piece specific rule and remove the extra class
+*/
+.pie.big {
+    width:200px;
+    height:200px;
+    left:50px;
+
+    -moz-transform-origin:center center;
+    -ms-transform-origin:center center;
+    -o-transform-origin:center center;
+    -webkit-transform-origin:center center;
+    transform-origin:center center;
+}
+/*
+this is the actual visible part of the pie. 
+Give it the same dimensions as the regular piece.
+Use border radius make it a half circle.
+move transform origin to the middle of the right side.
+Push it out to the left of the containing box.
+*/
+.pie:BEFORE {
+    content:"";
+    position:absolute;
+    width:100px;
+    height:200px;
+    left:-100px;
+    border-radius:100px 0 0 100px;
+    -moz-transform-origin:right center;
+    -ms-transform-origin:right center;
+    -o-transform-origin:right center;
+    -webkit-transform-origin:right center;
+    transform-origin:right center;
+    
+}
+/* if it's part of a big piece, bring it back into the square */
+.pie.big:BEFORE {
+    left:0px;
+}
+/* 
+big pieces will also need a second semicircle, pointed in the
+opposite direction to hide the first part behind.
+*/
+.pie.big:AFTER {
+    content:"";
+    position:absolute;
+    width:100px;
+    height:200px;
+    left:100px;
+    border-radius:0 100px 100px 0;
+}
+/*
+add colour to each piece.
+*/
+.pie:nth-of-type(1):BEFORE,
+.pie:nth-of-type(1):AFTER {
+
+    background-color:#F03E3E;	
+}
+.pie:nth-of-type(2):AFTER,
+.pie:nth-of-type(2):BEFORE {
+    background-color:#F29700;	
+}
+.pie:nth-of-type(3):AFTER,
+.pie:nth-of-type(3):BEFORE {
+    background-color:#23934C;	
+}
+.pie:nth-of-type(4):AFTER,
+.pie:nth-of-type(4):BEFORE {
+    background-color:orange;	
+}
+/*
+now rotate each piece based on their cumulative starting
+position
+*/
+.pie[data-start="60"] {
+    -moz-transform: rotate(60deg); /* Firefox */
+    -ms-transform: rotate(60deg); /* IE */
+    -webkit-transform: rotate(60deg); /* Safari and Chrome */
+    -o-transform: rotate(60deg); /* Opera */
+    transform:rotate(60deg);
+}
+.pie[data-start="140"] {
+    -moz-transform: rotate(140deg); /* Firefox */
+    -ms-transform: rotate(140deg); /* IE */
+    -webkit-transform: rotate(140deg); /* Safari and Chrome */
+    -o-transform: rotate(140deg); /* Opera */
+    transform:rotate(140deg);
+}
+
+/*
+and rotate the amount of the pie that's showing.
+
+NOTE: add an extra degree to all but the final piece, 
+to fill in unsightly gaps.
+*/
+.pie[data-value="60"]:BEFORE {
+    -moz-transform: rotate(61deg); /* Firefox */
+    -ms-transform: rotate(61deg); /* IE */
+    -webkit-transform: rotate(61deg); /* Safari and Chrome */
+    -o-transform: rotate(61deg); /* Opera */
+    transform:rotate(61deg);
+}
+.pie[data-value="80"]:BEFORE {
+    -moz-transform: rotate(81deg); /* Firefox */
+    -ms-transform: rotate(81deg); /* IE */
+    -webkit-transform: rotate(81deg); /* Safari and Chrome */
+    -o-transform: rotate(81deg); /* Opera */
+    transform:rotate(81deg);
+}
+.pie[data-value="220"]:BEFORE {
+    -moz-transform: rotate(220deg); /* Firefox */
+    -ms-transform: rotate(220deg); /* IE */
+    -webkit-transform: rotate(220deg); /* Safari and Chrome */
+    -o-transform: rotate(220deg); /* Opera */
+    transform:rotate(220deg);
+}
+.errorclr{
+    color: red;
+}
+/*
+NOTE: you could also apply custom classes (i.e. .s0 .v30)
+but if the CSS3 attr() function proposal ever gets implemented,
+then all the above custom piece rules could be replaced with
+the following:
+
+.pie[data-start] {
+transform:rotate(attr(data-start,deg,0);
+}
+.pie[data-value]:BEFORE {
+transform:rotate(attr(data-value,deg,0);
+}
+*/

@@ -1,0 +1,897 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/pages/AdminOperation/Parceldef.js":
+/*!***********************************************!*\
+  !*** ./src/pages/AdminOperation/Parceldef.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var D_Office_work_Jc_Project_JC_Project_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var D_Office_work_Jc_Project_JC_Project_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var D_Office_work_Jc_Project_JC_Project_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var D_Office_work_Jc_Project_JC_Project_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+
+
+
+
+var _jsxFileName = "D:\\Office work\\Jc Project\\JC-Project\\src\\pages\\AdminOperation\\Parceldef.js";
+
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal["default"].signature : function (a) {
+  return a;
+};
+
+
+
+
+
+var Parceldef = /*#__PURE__*/function (_Component) {
+  Object(D_Office_work_Jc_Project_JC_Project_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Parceldef, _Component);
+
+  var _super = Object(D_Office_work_Jc_Project_JC_Project_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__["default"])(Parceldef);
+
+  function Parceldef(props) {
+    var _this;
+
+    Object(D_Office_work_Jc_Project_JC_Project_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Parceldef);
+
+    _this = _super.call(this, props);
+    _this.state = {
+      orderList: null,
+      itemList: null,
+      restaurent_id: null,
+      dashboardData: {},
+      errors: {},
+      serverError: {},
+      isLoading: false
+    };
+    return _this;
+  }
+
+  Object(D_Office_work_Jc_Project_JC_Project_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Parceldef, [{
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps, prevState, snapshot) {}
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      var isLoading = this.state.isLoading;
+
+      if (isLoading) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+          className: "loader-large",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 42,
+            columnNumber: 17
+          }
+        });
+      }
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-12 container-heading mt-3 pl-0 ",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", {
+        className: "ml-2",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 25
+        }
+      }, "User Management")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-12 mt-2 mb-2 p-1",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "row p-0",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-1 ",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 37
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("b", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 41
+        }
+      }, "  Items:0 ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-1 mr-3 ",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 37
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("b", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 41
+        }
+      }, "  Selected:1  ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-1 mr-2 ",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 37
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("b", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 41
+        }
+      }, "  Pieces:0 ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-1 mr-2",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68,
+          columnNumber: 37
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("b", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 41
+        }
+      }, "  Wt:0 ")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-2 ",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
+        "class": "form-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("select", {
+        "class": "custom-select  select dropdownclr",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75,
+          columnNumber: 45
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+        value: "0",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 49
+        }
+      }, "Mr"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+        value: "1",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 49
+        }
+      }, "Mrs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+        value: "2",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 49
+        }
+      }, "Shri")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-2 text-right",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "text-right",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87,
+          columnNumber: 37
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-1",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88,
+          columnNumber: 41
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        className: "roundedd",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90,
+          columnNumber: 45
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "text-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 49
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("i", {
+        "class": "arrow left",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 53
+        }
+      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-1 ml-1",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96,
+          columnNumber: 41
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        className: "roundedd",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98,
+          columnNumber: 45
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "text-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 49
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("i", {
+        "class": "arrow right",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100,
+          columnNumber: 53
+        }
+      }))))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "col-sm-12 p-0  mt-2 table-responsive   table-currency",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("table", {
+        className: "table table-bordered",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("thead", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tr", {
+        className: "trheight trclr",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("th", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113,
+          columnNumber: 37
+        }
+      }, "Id"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("th", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114,
+          columnNumber: 37
+        }
+      }, "Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("th", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 37
+        }
+      }, "Phone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("th", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 37
+        }
+      }, "Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("th", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117,
+          columnNumber: 37
+        }
+      }, "City"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("th", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 37
+        }
+      }, "Address"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tbody", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tr", {
+        className: "trheight",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124,
+          columnNumber: 37
+        }
+      }, "19"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 37
+        }
+      }, "Shri. Ravi Charusaya"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126,
+          columnNumber: 37
+        }
+      }, "9888888889"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127,
+          columnNumber: 37
+        }
+      }, "Ravi@dpt.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128,
+          columnNumber: 37
+        }
+      }, "Tx"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129,
+          columnNumber: 37
+        }
+      }, "22,bloomberg")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tr", {
+        className: "trheight trclr",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 135,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 136,
+          columnNumber: 37
+        }
+      }, "29"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 137,
+          columnNumber: 37
+        }
+      }, "Mr. Naliv Malaya"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 138,
+          columnNumber: 37
+        }
+      }, "0000000000"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 139,
+          columnNumber: 37
+        }
+      }, "feko@pm.india"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 140,
+          columnNumber: 37
+        }
+      }, "AeroPlane"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141,
+          columnNumber: 37
+        }
+      }, "Videsh,Yatra")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tr", {
+        className: "trheight",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 144,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 146,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 149,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 150,
+          columnNumber: 37
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tr", {
+        className: "trheight trclr",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 152,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 153,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 154,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 156,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 157,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 158,
+          columnNumber: 37
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tr", {
+        className: "trheight",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 160,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 161,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 162,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 163,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 164,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 165,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 166,
+          columnNumber: 37
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tr", {
+        className: "trheight trclr",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 168,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 169,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 170,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 171,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 172,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 173,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 174,
+          columnNumber: 37
+        }
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("tr", {
+        className: "trheight",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 176,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 177,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 178,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 179,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 180,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 181,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("td", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 182,
+          columnNumber: 37
+        }
+      }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        type: "button",
+        "class": "btn btnclr mr-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 187,
+          columnNumber: 21
+        }
+      }, "Add New"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        type: "button",
+        "class": "btn btnclr mr-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 188,
+          columnNumber: 21
+        }
+      }, " Purge"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        type: "button",
+        "class": "btn btnclr mr-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 189,
+          columnNumber: 21
+        }
+      }, " Merge"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        type: "button",
+        "class": "btn btnclr mr-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 190,
+          columnNumber: 21
+        }
+      }, " Print Selection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        type: "button",
+        "class": "btn btnclr mr-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 191,
+          columnNumber: 21
+        }
+      }, " Serial Statement"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        type: "button",
+        "class": "btn btnclr mr-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 192,
+          columnNumber: 21
+        }
+      }, " Period Statemnet"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        type: "button",
+        "class": "btn btnclr mr-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 193,
+          columnNumber: 21
+        }
+      }, " Edit"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+        type: "button",
+        "class": "btn btnclr mr-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 194,
+          columnNumber: 21
+        }
+      }, " Fetch All")));
+    }
+  }, {
+    key: "__reactstandin__regenerateByEval",
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return Parceldef;
+}(react__WEBPACK_IMPORTED_MODULE_4__["Component"]);
+
+Parceldef.propTypes = {};
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {};
+};
+
+var mapDispatchToProps = {};
+
+var _default = Object(react_redux__WEBPACK_IMPORTED_MODULE_5__["connect"])(mapStateToProps, mapDispatchToProps)(Parceldef);
+
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(Parceldef, "Parceldef", "D:\\Office work\\Jc Project\\JC-Project\\src\\pages\\AdminOperation\\Parceldef.js");
+  reactHotLoader.register(mapStateToProps, "mapStateToProps", "D:\\Office work\\Jc Project\\JC-Project\\src\\pages\\AdminOperation\\Parceldef.js");
+  reactHotLoader.register(mapDispatchToProps, "mapDispatchToProps", "D:\\Office work\\Jc Project\\JC-Project\\src\\pages\\AdminOperation\\Parceldef.js");
+  reactHotLoader.register(_default, "default", "D:\\Office work\\Jc Project\\JC-Project\\src\\pages\\AdminOperation\\Parceldef.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ })
+
+})
+//# sourceMappingURL=main.634387abf1c91b6d0002.hot-update.js.map

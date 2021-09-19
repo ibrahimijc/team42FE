@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.985" height="24.852" viewBox="0 0 24.985 24.852">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#2d2926}
+        </style>
+    </defs>
+    <g id="prefix__edit_1_" data-name="edit (1)" transform="translate(0 -.269)" style="opacity:.73">
+        <path id="prefix__Path_298" d="M24.269 33.038a.655.655 0 0 0-.655.655v5.815a1.967 1.967 0 0 1-1.965 1.965H3.274a1.967 1.967 0 0 1-1.964-1.965V22.442a1.967 1.967 0 0 1 1.965-1.965h5.814a.655.655 0 0 0 0-1.31H3.274A3.278 3.278 0 0 0 0 22.442v17.066a3.278 3.278 0 0 0 3.274 3.274h18.375a3.278 3.278 0 0 0 3.274-3.274v-5.815a.655.655 0 0 0-.654-.655zm0 0" class="prefix__cls-2" data-name="Path 298" transform="translate(0 -17.662)"/>
+        <path id="prefix__Path_299" d="M156.367 41.89l9.562-9.562 3.084 3.084-9.562 9.562zm0 0" class="prefix__cls-2" data-name="Path 299" transform="translate(-146.127 -29.96)"/>
+        <path id="prefix__Path_300" d="M132.543 200.627l3.408-.944-2.464-2.464zm0 0" class="prefix__cls-2" data-name="Path 300" transform="translate(-123.863 -184.053)"/>
+        <path id="prefix__Path_301" d="M319.537.747a1.639 1.639 0 0 0-2.315 0l-.695.695 3.084 3.084.695-.695a1.639 1.639 0 0 0 0-2.315zm0 0" class="prefix__cls-2" data-name="Path 301" transform="translate(-295.799)"/>
+    </g>
+</svg>

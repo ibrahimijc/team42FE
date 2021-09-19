@@ -1,0 +1,256 @@
+
+
+    .BadgeColor {
+        color: #ffffff;
+        
+        background-color: #f29700;
+    }
+
+.tablesize{
+
+    font-size: 16px;
+}
+
+
+.inventry-wrapper {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+  }
+
+.add_inventry {
+  
+    border: solid 1px #f29700;
+    background-color: #ffffff;
+    color:#f29700 ;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: center;
+   // margin-top: 30px;
+}
+.add_inventry:hover {
+  
+  border: solid 1px #fff;
+  background-color: #f29700;
+  color:#fff ;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+ // margin-top: 30px;
+}
+.select {
+  
+  border: solid 1px #f29700 !important;
+  background-color: #ffffff !important;
+  color:#000 !important ;
+  font-family: Montserrat !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+ width: 135px !important;
+}
+.custom-select {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='orange' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") !important;
+}
+.icon-add {
+    padding: 10px;
+    color: #2d2926  ;
+    position: relative;
+    left:  34px;
+    z-index: 1000;
+     
+  }
+  .btn-container {
+  display: flex;
+  width: 90%;
+  margin-left: 30px;
+
+  }
+  .upload-heading {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f29700;
+  }
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #f29700;
+    margin-left: 6px;
+    border-radius: 12px;
+  }
+  .circlemarign{
+
+    margin-top: -5px;
+  }
+  .imgmargin{
+    margin-left: 3px;
+    margin-bottom: 6px;
+  }
+  .drop-down {
+    display: table-caption;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f29700;
+    cursor: pointer;
+  }
+  
+  .drop-down::after {
+    display: table-caption;
+    margin-left: 13px;
+    vertical-align: 1px !important;
+    
+    font-size: 21px;
+}
+.table-col{
+  
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+    
+  letter-spacing: normal;
+  
+  color: #2d2926;
+}
+.dropdwonclr{
+  border-color:#22F0D7  !important;
+  background: #f8f9fa;
+
+  
+}
+.dropdwonclr2{
+  border-color:#22F0D7  !important;
+  height: 35px !important;
+  background: #f8f9fa;
+
+}
+.table-row{
+  
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: #2d2926;
+  }
+  .inventry-badge{
+    line-height: 1.45 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+  
+    height: 22.5px;
+    background-color: #f29700;
+    color: white;
+  }
+  .badge:hover{
+    cursor: pointer;
+  }
+  
+  .inventory-badge{
+    line-height: 1.45 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+  
+    height: 22.5px;
+    background-color: #F03E3E;
+    color: white;
+  }
+  .inventry-save{
+    line-height: 1.45 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+   border-radius: 0px !important;
+    height: 22.5px;
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+    /* margin: 0px; */
+    margin-bottom: 5px;
+  }
+ 
+  .border-modal{
+    width: 500px;
+  }
+  .modal-content{
+    border-radius: 41px !important;
+  }
+  .check-box-label {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-left: 30px;
+    margin-top: 4px;
+  }
+  .upload-file-btn {
+
+    border: 0;
+    height: 48px;
+    background-color: #f29700;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    float:right;
+    left: 50px;
+  }
+  .input-upload-container {
+    display: flex;
+    width: 90%;
+    margin-left: 30px;
+   
+    }
+  .modal-close-icon{
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .input-upload{
+    height: 40px;
+    width: 100%;
+    border: solid 1px #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.13);
+
+    background-color: #ffffff;
+  } 
+
+  

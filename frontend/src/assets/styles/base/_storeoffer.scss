@@ -1,0 +1,86 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+  margin-top: 32px;
+  margin-left: 73px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#f29700;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f29700;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #f29700;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.arrow {
+    border: solid #9b8888;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 3px;
+}
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .BadgeColor1{
+    line-height: 1.45 !important;
+    font-weight: 300 !important;
+    width: 103px;
+    height: 22.5px;
+    background-color: #23934c;
+    color: white;
+  }
+  
+  .thcolr{
+      color: #F03E3E;
+  }

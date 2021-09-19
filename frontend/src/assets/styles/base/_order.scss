@@ -1,0 +1,109 @@
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .roundedd{
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+background-color: #f1f1f1;;  }
+.roundedd1{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+background-color: #f29700;; 
+color: white; }
+.marginpagging{
+    margin-left: 70px !important;
+}
+.switchpending {
+    position: relative;
+    display: inline-block;
+    width: 43px;
+    height: 19px;
+    margin-top: 3px;
+   
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#221F1F42;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 0px;
+      bottom: 0px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #f29700;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f29700;
+  }
+  
+ 
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 32px;
+  }
+  
+  .slider.round:before {
+    border-radius: 40%;
+  }
+  .trclr{
+    background-color: #FCF6EA;
+  }
+  .radiusmap{
+    text-align: left;
+    font: Bold 20px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #F29700;
+    opacity: 1;
+  }
+  .submit-btn1 {
+    width: 113px;
+    margin-left: 223px;
+border:0;
+
+    height: 48px;
+    background-color: #f29700;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    // margin-top: 30px;
+    // margin-left: 150px;
+  }
